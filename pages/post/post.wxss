@@ -1,0 +1,9 @@
+ swiper{
+     width:100%;
+     height:600rpx;
+ }
+ /*less sass*/
+ swiper image{
+     width:100%;
+     height:600rpx;
+ }
