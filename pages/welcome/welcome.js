@@ -6,7 +6,11 @@ Page({
   data: {
     
   },
-
+  onTap:function(){
+    wx.redirectTo({
+      url: '../post/post',
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */
