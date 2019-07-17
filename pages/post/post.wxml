@@ -7,7 +7,7 @@
   </swiper>
 </view>
 <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
-  <view>
+  <view catchtap="onPostTap" data-id="{{item.postId}}">
     <template is="postItem" data="{{...item}}" />
   </view>
 </block> 
